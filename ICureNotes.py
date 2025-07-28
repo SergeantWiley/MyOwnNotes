@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+#Pip install fiass-cpu
 import faiss
 #Make Random vectors
 data = np.random.random((1000,128)).astype('float32')
